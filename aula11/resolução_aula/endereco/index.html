@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+
+        <link rel="stylesheet" href="bootstrap.css">
+    </head>
+    <body class="container">
+        <section class="row mt-5 align-items-center">
+            <div class="col">
+                <img src="map.svg" width="100%" alt="">
+            </div>
+            <div class="col">
+                <article class="card card-body bg-dark text-white">
+                    <h3>Informe seu Endereço</h3>
+                    <hr>
+
+                    <div id="msg-erro" class="alert alert-danger" style="display: none;">
+                        <strong>Hey!</strong> Preencha corretamente todos os campos.
+                    </div>
+
+                    <form action="" onsubmit="validar(event)">
+                        <label for="cep">CEP</label>
+                        <input id="cep" type="text" class="form-control mb-2" placeholder="Ex: 12345678">
+                        
+                        <label for="logradouro">Logradouro</label>
+                        <input id="logradouro" type="text" class="form-control mb-2" placeholder="Ex: Rua das Flores">
+
+                        <label for="numero">Número</label>
+                        <input id="numero" type="number" min="0" class="form-control mb-2" placeholder="Ex: 123">
+
+                        <label for="bairro">Bairro</label>
+                        <input id="bairro" type="text" class="form-control mb-2" placeholder="Ex: MissJane / 2 Brothers Park">
+
+                        <label for="cidade">Cidade</label>
+                        <input id="cidade" type="text" class="form-control mb-2" placeholder="Ex: CaucaiaCity">
+
+                        <label for="uf">UF</label>
+                        <input id="uf" type="text" class="form-control mb-2" placeholder="Ex: CE">
+
+                        <div class="d-grid">
+                            <button  class="btn btn-primary mt-2">
+                                PRONTO!
+                            </button>
+                        </div>
+                    </form>
+                </article>
+            </div>
+        </section>
+
+        <script src="validar.js"></script>
+    </body>
+</html>
