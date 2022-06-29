@@ -1,0 +1,39 @@
+body{
+    background-color: #dedede;
+}
+div.topo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.topo img{
+    width: 20px;
+}
+
+article{
+    background-color: #ffffff;
+    margin-top: 20px;
+    padding: 10px;
+    box-shadow: 2px 2px 3px 3px #666666;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.locais img{
+    width: 100px;
+    border-radius: 8px;
+}
+
+p.titulo{
+    margin: 0;
+    font-weight: bold;
+}
+
+p.local{
+    margin: 0;
+    color: #666;
+    font-size: 0.8rem;
+    margin-bottom: 15px;
+}

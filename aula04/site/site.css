@@ -1,0 +1,31 @@
+.exemplo1{
+    display: flex;
+}
+
+.info{
+    width: 50%;
+    height: 100px;
+
+    display: flex;  /*alinhamento horizontal*/
+    justify-content: center; /*pra deixar flexiavel*/
+    align-items: center; /*alinhamento vertical*/
+    
+}
+
+.info:nth-child(1){
+    background-color: #5adab1;
+}
+
+.info:nth-child(2){
+    background-color: #9c5883;
+}
+
+@media only screen and (max-width:480px) {
+    .exemplo1{
+        display:block;
+    }
+
+    .info{
+        width: 100%;
+    }
+}

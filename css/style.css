@@ -1,0 +1,43 @@
+.center-login{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+
+    background-color: rgb(192, 192, 176);
+    height: 7rem;
+    width: 100%;
+    padding: 3px;
+    
+}
+
+
+
+label{
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    
+}
+.sing-in{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(102, 85, 124);
+    border-radius: 5px;
+    
+}
+
+.sing-in input{
+    width: 100px;
+    margin: 5px;
+    
+}
+
+.button-login{
+    width: 100px;
+    display: flex;
+
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+    margin-left: 25%;
+}

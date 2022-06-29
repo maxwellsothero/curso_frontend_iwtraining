@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Cadastro Rastreador</title>
+</head>
+<body>
+        <hr>        
+            <h1>Cadastramento de Rastreadores</h1>
+        <hr>
+
+           <form action="">
+
+            <label for="fabricante">Fabricante:</label>
+            <select name="" id="fabricante">
+                <option value="0" selected disabled>--selecione Fabricante</option>
+                <option value="1">Suntech</option>
+                <option value="2">Positron</option>
+                <option value="3">BWS</option>
+                <option value="4">Maxtrack</option>
+                <option value="5">Coban</option>
+                <option value="6">Importados</option>                    
+            </select>
+            <br><br>
+
+        <label for="model">Modelo:</label>    
+            <input id="model" type="text" minlength="3" placeholder="digite modelo">
+            <br><br>
+        
+        <label for="imei">IMEI:</label>    
+            <input id="imei" type="text" pattern="[0-9] {15}" placeholder="digite imei">
+            <br><br>
+
+        <label for="serial">SERIAL:</label>    
+            <input id="serial" type="text" pattern="[0-9] {15}" placeholder="digite serial">
+            <br><br>   
+            
+        
+
+        <label for="lote">Lote:</label>    
+            <input id="lote" type="text" placeholder="digite nota fisca ou romaneio" >
+            <input type="date">
+            <br><br>     
+
+            <button>Cadastrar Rastreador</button>
+
+
+           </form>
+
+                
+
+
+</body>
+</html>

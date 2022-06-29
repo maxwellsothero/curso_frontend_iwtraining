@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(167, 158, 158);
+    
+    font-family: 'Koulen', cursive;
+}
+ h1{
+     text-align: center;
+     background-color: black;
+     color: white;
+ }
+
+ h1 .material-icons{
+     margin-right: 10px;
+    
+ }
+
+ .dmaster{
+    
+    padding: 10px;
+    border-radius: 6px;
+  
+     
+     display: flex;
+     justify-content: center;
+     border: 1px solid rgb(22, 21, 21);
+     
+ }
+
+form i{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+form >input{
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: 0;
+    
+    margin: 5px 0 5px 0;
+}
+
+form .dbt{
+    
+    display: flex;
+    justify-content: center;
+   
+
+}
+div>button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}  
+div>button:hover{
+    background-color: rgb(49, 45, 45);
+    color: white;
+}

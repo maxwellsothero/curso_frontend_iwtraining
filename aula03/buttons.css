@@ -1,0 +1,36 @@
+button.bt-excluir{
+    background-color: #d2091a;
+    color: white;
+
+}
+
+button.bt-confpag{
+    background-color: #1dd655;
+    color: rgb(252, 249, 249);
+
+}
+
+button.bt-edit{
+    background-color: var(--red);
+    color: white;
+
+}
+
+button.bt-cadastro{
+    background-color: #7017ff;
+    color: white;
+
+}
+
+p.erro{
+    color: #cc0000;
+}
+button.bt-aviso{
+    background-color: yellow;
+    color:black
+
+}
+
+button.bt-dica{
+
+}

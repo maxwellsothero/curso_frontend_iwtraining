@@ -1,0 +1,62 @@
+header{
+    width: 100%;
+    
+}
+
+.hst{
+    display: flex;       
+    justify-content: center;    
+}
+
+.hstimg1 img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.hstimg2 img {
+    width: 185px;
+    border-radius: 5px;
+    margin: 5px;
+
+}
+
+main{
+    background-color: rgb(36, 41, 65);
+    width: 100%;
+    height: 90px;
+}
+
+main ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    
+   
+}
+
+main a{
+    width: 50px;
+    height: 20px;
+    background-color: rgba(108, 113, 184, 0.842);
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+        
+}
+a:hover{
+    background-color: rgb(160, 168, 175);
+}
+
+.mst .cabaula{
+    
+    text-align: center;
+    color: white;
+}
+
+footer{
+    background-color: rgb(207, 133, 99);
+    width: 100%;
+    height: 50px;
+}

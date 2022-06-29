@@ -1,0 +1,31 @@
+#exemplo,#exemplo1 {
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde{
+    background-color: #00ff00;
+    font-size: 20px;
+
+}
+.vermelho{
+    background-color: #ff0000;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+.azul{
+    background-color: #0000ff;
+    font-size: 20px;
+    color: #ffffff;
+
+}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+
+    <hr>
+        <h1>Cadastro de produtos</h1>
+    <hr>
+
+        <form action="">
+            <label for="tipoprod">Tipo de Produto:</label>
+            <select name="tipoprod" id="tipoprod">
+                <option value="0" selected disabled>---selecione Tipo---</option>
+                <option value="1">Perecivel</option>
+                <option value="2">Não Perecivel</option>
+                <option value="3">Eletrônico</option>
+                <option value="4">Naturais</option>
+            </select>
+                <br>
+        
+                <p>Estado da Mercadoria</p>    
+                <label for="novo">Novo</label>    
+                    <input id="novo" type="radio" name="estado">
+                <label for="usado">Usado</label>    
+                    <input id="usado" type="radio" name="estado"> 
+                <label for="remanufaturado">Remanufaturado</label>    
+                    <input id="remanufaturado" type="radio" name="estado">   
+                    
+                    <br><br>
+
+            <label for="fabricante">Fabricante:</label>
+                <input id="fabricante" type="text" minlength="3"><br>
+            
+            <label for="modelo">Modelo:</label>    
+                <input id="modelo" type="text"><br>
+
+            <label for="quant">Quantidade:</label>    
+                <input id="quant" type="number" min="1"><br>
+
+            <label for="val">Valor</label>     
+                <input type="Number" min="0"><br>
+
+            <label for="datain">Data de Entrada:</label>    
+                <input id="datein" type="date"><br><br>
+
+            <button>Cadastrar</button>    
+            <hr>
+
+    
+            
+                
+                
+        
+
+
+        </form>
+    
+
+</body>
+</html>

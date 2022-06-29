@@ -1,0 +1,113 @@
+header{
+    width: 100%;
+}
+
+div{
+    display: block;
+}
+
+.divmain{
+    
+    display: flex;
+    justify-content: flex-start;
+    height: 55px;
+    padding: 10px;
+    
+    
+}
+
+.divlogo{
+    
+    
+    width: 100%;
+    
+}
+
+.cmfunc{
+display: flex;
+text-align: center;
+
+}
+
+.comofunciona{
+   
+    margin-right: 8rem;
+    font-size: 18px;
+    width: 120px;
+    padding: 20px;
+
+}
+
+.menu{
+     
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.divfull{
+    width: 100%;
+    background-color: #1a833e;
+    height: 360px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.divdizer{
+    color: white;
+    padding: 60px 0px 0px 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.divimg{
+    padding: 0px 0px 0px 40px;
+   
+}
+
+.divselect{
+    display: block;
+    margin-left: 50px;
+}
+
+select{
+    width: 430px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid;
+    background-color: white;
+    border-color: #4d5750;
+    
+}
+
+button{
+    width: 430px;
+    height: 30px;
+    margin: 10px;
+    background-color: #f56300;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    ]
+}
+button:hover{
+    background-color: #eb6206;
+}
+h2{
+    color: #1a833e;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+form{
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 20px;
+}

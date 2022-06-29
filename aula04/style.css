@@ -1,0 +1,81 @@
+body{
+    background-color: #dedede;
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border-radius: 6px;
+    border: 1px solid #dac9c9;
+    border-collapse: collapse;
+}
+
+h1{
+    text-align: center;
+}
+
+th{
+    text-align: left;
+    padding: 5px;
+      
+}
+
+table > thead{
+    background-color: black;
+    color: white;
+    height: 30px;
+}
+table >tbody > tr >td{
+    border: 1px solid #999999;
+    border-left: 0;
+    border-right: 0;
+    padding: 2px;
+    padding-left: 2px;
+
+}
+
+table > tbody > tr:nth-child(even){
+    background-color: #eceaea;
+}
+
+table > tbody > tr:hover{
+    background-color: #cccccc;
+    /* font-size: 1.1rem; */
+    /* color: white; */
+    /* transition: 1s;
+    color: white; */
+}
+
+table button:first-child{
+    background-color: #ffffff;
+    border: 1px solid rgb(92, 78, 52);
+    border-radius: 3px;
+    color: rgb(92, 78, 52);
+}
+table button:first-child:hover{
+    background-color: rgb(36, 14, 238);
+    color: #ffffff;
+}
+
+table button:last-child{
+    background-color: #ffffff;
+    border: 1px solid rgb(92, 78, 52);
+    border-radius: 3px;
+    color: rgb(92, 78, 52);
+}
+table button:last-child:hover{
+    background-color: rgb(248, 55, 7);
+    color: #ffffff;
+}
+
+/* table button:nth-child():hover{
+    background-color: #8d6a29;
+    color: #ffffff;
+} */
+
+table td:last-child,table th:last-child{
+    text-align: center;
+}

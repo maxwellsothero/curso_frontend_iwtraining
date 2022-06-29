@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Cadastro de CHIP</title>
+</head>
+<body>
+
+        <hr>
+            <h1>Cadastramento de CHIP</h1>
+        <hr>
+        
+        <form action="">
+            <label for="fornecedor">Fornecedor:</label><br>
+            <select name="" id="fornecedor" >
+                    <option value="0" selected disabled>--Selecione--</option>
+                    <option value="1">Allcom</option>
+                    <option value="2">Federal</option>
+                    <option value="3">Hinova Connect</option>
+            </select>
+
+                        <br><br>
+
+            <label for="iccid">Número ICCID:</label>   <br>     
+                    <input id="iccid" type="text" pattern="[0-9] {20}" placeholder="Digite o Número ICCID">
+                        <br><br>               
+
+            <label for="nlinha">Número da Linha:</label>   <br>     
+                    <input id="nlinha" type="text" pattern="[0-9] {11}" placeholder="Digite o Número da Linha">
+                        <br><br>
+
+            <label for="lote">Lote:</label>    <br>
+                    <input id="lote" type="text" placeholder="Digite o Número do Lote" >
+                    <input type="date">
+                        <br><br>
+            
+            <button>Cadastrar Chip</button>            
+
+
+        </form>
+
+    
+</body>
+</html>
