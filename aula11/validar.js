@@ -71,4 +71,63 @@ function validar(event){
                 }
             });
 
+            INPUT_LOGRADOURO.addEventListener('keyup',function(){
+                MSG_ERRO.style.display = 'none';
+                INPUT_LOGRADOURO.classList.remove('is-invalid');
+                
+                
+                if(INPUT_LOGRADOURO.value.length >3){
+                    INPUT_LOGRADOURO.classList.add('is-valid');
+                }else{
+                    INPUT_LOGRADOURO.classList.add('is-invalid');
+                }
+            });
+
+            INPUT_NUMERO.addEventListener('keyup',function(){
+                MSG_ERRO.style.display = 'none';
+                INPUT_LOGRADOURO.classList.remove('is-invalid');
+
+                if(INPUT_NUMERO.value !== '' ){
+                    INPUT_NUMERO.classList.add('is-valid');
+                }else{
+                    INPUT_NUMERO.classList.add('is-invalid');
+                }
+            }); 
+
+            INPUT_BAIRRO.addEventListener('keyup',function(){
+                MSG_ERRO.style.display = 'none';
+                INPUT_BAIRRO.classList.remove('is-invalid');
+                
+                
+                if(INPUT_BAIRRO.value.length >3){
+                    INPUT_BAIRRO.classList.add('is-valid');
+                }else{
+                    INPUT_BAIRRO.classList.add('is-invalid');
+                }
+            });
+
+            INPUT_CIDADE.addEventListener('keyup',function(){
+                MSG_ERRO.style.display = 'none';
+                INPUT_CIDADE.classList.remove('is-invalid');
+                
+                
+                if(INPUT_CIDADE.value.length >3){
+                    INPUT_CIDADE.classList.add('is-valid');
+                }else{
+                    INPUT_CIDADE.classList.add('is-invalid');
+                }
+            });
+
+            INPUT_UF.addEventListener('keyup',function(){
+                MSG_ERRO.style.display = 'none';
+                INPUT_UF.classList.remove('is-invalid');
+                
+                
+                if(INPUT_UF.value.length === 2 && INPUT_UF.value.length <= 3){
+                    INPUT_UF.classList.add('is-valid');
+                }else{
+                    INPUT_UF.classList.add('is-invalid');
+                }
+            });
+
 // observer/listener

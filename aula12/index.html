@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <title>Formulario Pagamento</title>
+</head>
+<body class="container">
+
+    <h1 class="text-center bg-success text-white">Formulario de Pagamento</h1>
+    <hr>
+        <section class="row mt-5 align-items-center">            
+                    <div class="col">
+                        <article class=" card card-body bg-primary text-white">
+                            <form action="" onsubmit="validar(event)">
+                                <h3 id="msg-erro" class="text-center bg-danger" style="display: none;"> Por favor Conferir os Dados.</h3>
+                                <label for="nome">Nome Impresso no Cartão</label>
+                                        <input class="form-control " type="text" id="nome" placeholder="Digite seu Nome">
+                                <label for="bin">Número do Cartão</label>        
+                                        <input class=" form-control mt-1" type="text" id="bin" placeholder="Digite os 16 Números">
+                                        
+                                    <div  class="d-flex mt-1">
+                                       
+                                        <input class="form-control me-2 " type="text" id="mes" placeholder="Mês">
+                                        <input class="form-control " type="text" id="ano" placeholder="Ano">  
+                                    </div>
+                                  
+                                        <input class="form-control mt-2 w-50 text-center"type="text" id="cvv" placeholder="Digite o CVV">
+                                        <button class="btn btn-success mt-2 w-100" id="sendcard">Pagar</button>
+                            </form>
+                        </article> 
+                    </div>
+                     
+                    <div class="col">
+                        ...
+                    </div>
+                  
+        </section>
+        
+   <script src="eventos.js"></script>
+</body>
+</html>
